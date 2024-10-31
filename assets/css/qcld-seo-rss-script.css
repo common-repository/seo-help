@@ -1,0 +1,195 @@
+
+.qcld-seo-rss-switch{
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.qcld-seo-rss-switch input[type="checkbox"] {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    -webkit-appearance: none;
+    background: #dcdcdc;
+    border: 0px;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: 0.7s;
+}
+
+.qcld-seo-rss-switch input:checked[type="checkbox"] {
+  background: #03a9f4;
+}
+
+.qcld-seo-rss-switch input[type="checkbox"]:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  top: 0px;
+  left: 0;
+  background: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: .5s;
+}
+
+.qcld-seo-rss-switch input:checked[type="checkbox"]:before {
+  left: 35px;
+  top: 2px;
+}
+
+table.qcld_seo_help-table {
+  width: 100%;
+  margin-top:5px;
+}
+
+table.qcld_seo_help-table tr td {
+    width: 25%;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+table.qcld_seo_help-table tr:last-of-type td {
+    background-color: #5555559c;
+    color: #ffffff;
+    padding: 0px;
+    text-transform: lowercase;
+}
+
+table.qcld_seo_help-table td.qcld_seo_help-has-popup {
+  cursor: pointer;
+}
+
+table.qcld_seo_help-table .qcld_seo_help-has-popup a.qcld_seo_help-popup-details {
+    cursor: pointer;
+    pointer-events: all;
+    color: #0073aa;
+}
+
+
+#qcld_seo_help_rss_meta_box .handle-actions{
+  display: none !important;
+}
+
+.qcld_seo_help_form-wrap {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.qcld_seo_help_wrap .form-block {
+    padding: 15px 0px;
+}
+
+.qcld_seo_help_wrap .form-label{
+  display: inline-block;
+  margin-bottom: 8px;    
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.qcld_seo_help_wrap .form-control {
+  display: block;
+  width: 100%;
+  height: 48px;
+  padding: 0px 16px;
+  border: 1px solid #D9D9D9;
+  border-radius: 0px;
+  color: #050505;
+  background-color: #fff;
+  box-shadow: none;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.qcld_seo_help_wrap textarea.form-control{
+  padding-top: 10px;
+}
+
+.qcld_seo_help_wrap .form-control:focus {
+  border-color: #4268CF;
+  outline: 0;
+  box-shadow: none;
+}
+
+.qcld_seo_help_wrap .form-control::-moz-placeholder {
+  opacity: 1;
+  color: #838383;
+}
+
+.qcld_seo_help_wrap .form-control:-ms-input-placeholder {
+  color: #838383;
+}
+
+.qcld_seo_help_wrap .form-control::-webkit-input-placeholder {
+  color: #838383;
+}
+
+.qcld_seo_help_wrap .form-control::-ms-expand {
+  border: 0;
+  background-color: transparent;
+}
+
+.qcld_seo_help_wrap .form-control[disabled],
+.qcld_seo_help_wrap .form-control[readonly],
+fieldset[disabled] .form-control {
+  opacity: .6;
+  background-color: #ffffff;
+}
+
+.qcld_seo_help_wrap .form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+
+.qcld_seo_help_wrap textarea.form-control {
+  height: auto;
+}
+
+.qcld_seo_help-items-found,
+.qcld_seo_help-duplicates-found{
+  display: none;
+}
+
+table.qcld_seo_help-table.import_error {
+  color: indianred;
+  font-weight: bold;
+}
+
+table.qcld_seo_help-table.import_success {
+  color: green;
+  font-weight: bold;
+}
+
+table.qcld_seo_help-table .qcld_seo_help-found-details,
+table.qcld_seo_help-table .qcld_seo_help-popup-details,
+table.qcld_seo_help-table .qcld_seo_help-popup-details,
+table.qcld_seo_help-table .qcld_seo_help-duplicates-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+table.qcld_seo_help-table .qcld_seo_help-error-status.import-success i {
+  color: #149714;
+}
+
+body .qcld_seo_pro_feature {
+  background: red;
+  color: #fff;
+  padding: 0px 5px;
+  border-radius: 4px;
+  font-size: 11px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  display: inline;
+  line-height: 20px;
+}
